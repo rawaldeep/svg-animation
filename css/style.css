@@ -1,0 +1,97 @@
+body{
+    text-align: center;
+}
+.path{
+fill-rule:evenodd;
+fill-opacity: 0;
+stroke-width: 0.25px;
+stroke: #000;
+stroke-miterlimit: 5;
+stroke-dashArray: 250;
+stroke-dashoffset: 250;
+animation-timing-function: ease-in-out;
+animation-fill-mode: forwards;
+animation-iteration-count: 1;
+animation-name: DrawLine, FadeStroke, FillIn;
+animation-duration: 10s, 10s, 15s;
+animation-delay: 0s, 0s, 0s;
+
+}
+.path2{
+fill:#e8ccba;
+fill-rule:evenodd;
+stroke-width: 0.25px;
+stroke: #000;
+stroke-miterlimit: 5;
+stroke-dashArray: 250;
+stroke-dashoffset: 250;
+animation-timing-function: ease-in-out;
+animation-fill-mode: forwards;
+animation-iteration-count: 1;
+animation-name: DrawLine, FadeStroke, FillIn;
+animation-duration: 10s, 10s, 15s;
+animation-delay: 0s, 0s, 0s;
+}
+.path3{
+fill:white;
+fill-rule:evenodd;
+stroke-width: 0.25px;
+stroke: #000;
+stroke-miterlimit: 5;
+stroke-dashArray: 250;
+stroke-dashoffset: 250;
+animation-timing-function: ease-in-out;
+animation-fill-mode: forwards;
+animation-iteration-count: 1;
+animation-name: DrawLine, FadeStroke, FillIn;
+animation-duration: 10s, 10s, 15s;
+animation-delay: 0s, 0s, 0s;
+}
+.path4{
+fill:#e8ccba;
+fill-rule:evenodd;
+stroke-width: 0.25px;
+stroke: #000;
+stroke-miterlimit: 5;
+stroke-dashArray: 250;
+stroke-dashoffset: 250;
+animation-timing-function: ease-in-out;
+animation-fill-mode: forwards;
+animation-iteration-count: 1;
+animation-name: DrawLine, FadeStroke, FillIn;
+animation-duration: 10s, 10s, 15s;
+animation-delay: 0s, 0s, 0s;
+}
+.path5{
+fill:#49322a;
+fill-rule:evenodd;
+stroke-width: 0.25px;
+stroke: #000;
+stroke-miterlimit: 5;
+stroke-dashArray: 250;
+stroke-dashoffset: 250;
+animation-timing-function: ease-in-out;
+animation-fill-mode: forwards;
+animation-iteration-count: 1;
+animation-name: DrawLine, FadeStroke, FillIn;
+animation-duration: 10s, 10s, 15s;
+animation-delay: 0s, 0s, 0s;
+}
+@keyframes DrawLine {
+to {
+stroke-dashOffset: 0;
+}
+}
+@keyframes FadeStroke {
+to {
+stroke-opacity: 0;
+}
+}
+@keyframes FillIn {
+from {
+fill-opacity: 0;
+}
+to {
+fill-opacity: 1;
+}
+}
